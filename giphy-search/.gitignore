@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 config.js
+# Added
+node_modules/
+.env
