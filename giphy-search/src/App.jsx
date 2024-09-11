@@ -10,7 +10,8 @@ const URL = `https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}&limit=25&
 function App() {
   const [gifs, setGifs] = useState([]);
   const [errorMessage, setErrorMessage] = useState('');
-
+  
+/*
   useEffect(() => {
     const doFetch = async () => {
       const [data, error] = await handleFetch(URL);
@@ -19,6 +20,7 @@ function App() {
     }
     doFetch();
   }, []);
+*/
 
   useEffect(() => {
     const doFetch = async () => {
