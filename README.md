@@ -48,11 +48,13 @@ Before continuing, make sure that these tasks are completed!
 - [x] The `/api/gifs` endpoint sends a fetch request to the Giphy API using the API Key from `process.env` and sends a response (or an error) back to the client
 - [x] The frontend `vite.config.js` file has been updated to enable proxy requests
 - [x] The frontend sends a request to `/api/gifs` instead of directly to the Giphy API
-- [x] Bonus: The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
+- [ ] Bonus: The `/api/gifs` endpoint can parse the `req.query` parameters to get the search term and make a request to the Giphy API's search endpoint.
+FEEDBACK:
+In the front end app.jsx file, your url variable calls API_KEY which doesn't exist, causing an error when running the site. This happens in your deployed link as well. 
 
 **Deployment Technical Requirements**
 
-- [x] Your server is deployed and the link is added to this repo's README
+- [ ] Your server is deployed and the link is added to this repo's README
 
 You got this!
 
